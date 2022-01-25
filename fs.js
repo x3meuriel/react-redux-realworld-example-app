@@ -24,17 +24,6 @@ const getAllReducers = async () =>{
  getAllReducers().then(data => console.log(data)); ;
 
 
-const words = ['bring', 'Bring', 'good', 'ring', 'sign', 'sing', 'singing', 'bing', 'king', 'gray', 'grey', 'Bing'];
 
-
-const wordsFind = words.filter((item)=>{
-
-    //  return /^[^b|^s]ing/.test(item);
-    // return /gr(^e|a)y/.test(item)
-    return /[^ing]$/.test(item) 
-})
-
-
-// console.log(wordsFind)
 
 
